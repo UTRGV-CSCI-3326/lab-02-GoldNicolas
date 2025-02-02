@@ -10,7 +10,7 @@ public class MixMatch {
         double varDouble = 0.0000000001;
         boolean varBoolean = true;
 
-        System.out.println(varString + " <- String, stores a sequence of characters.");
+        System.out.println(varString + " <- String, stores a sequence of characters."); 
         System.out.println(varChar + " <- Char, stores a single character/letter or ASCII values");
         System.out.println(varShort + " <- Short, stores whole numbers from -32,768 to 32,767");
         System.out.println(varInt + " <- Integer, stores whole numbers from -2,147,483,648 to 2,147,483,647");
@@ -19,6 +19,7 @@ public class MixMatch {
         System.out.println(varDouble + " <- Double, stores fractional numbers up to 15 decimal digits");
         System.out.println(varBoolean + " <- Boolean, stores true or false values");
 
+        // All 8 data types printed together
         System.out.println("String: " + varString + "; Char: " + varChar + "; Short: " + varShort + "; Int: " + varInt + "; Long: " + varLong + "; Float: " + varFloat + "; Double: " + varDouble + "; Boolean: " + varBoolean);
     }
 }
